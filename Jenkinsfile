@@ -84,6 +84,10 @@ pipeline {
             }
           }
 
+          environment {
+            CI_ENVIRONMENT_URL = 'STAGING_URL_TO-BE-SET'
+          }
+
           steps {
             sh '''
               npm install netlify-cli node-jq
