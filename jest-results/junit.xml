@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="1.529">
+  <testsuite name="src/App.test.js" errors="0" failures="0" skipped="0" timestamp="2024-08-30T14:55:51" time="0.85" tests="1">
+    <testcase classname="-renders Kids Table link" name="-renders Kids Table link" time="0.031">
+    </testcase>
+  </testsuite>
+</testsuites>

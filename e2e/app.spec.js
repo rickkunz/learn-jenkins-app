@@ -8,10 +8,10 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Learn Jenkins/);
 });
 
-test('has Jenkins in the body', async ({ page }) => {
+test('The Kids Table - where a kid can be a kid', async ({ page }) => {
   await page.goto('/');
 
-  const isVisible = await page.locator('a:has-text("Learn Jenkins on Udemy")').isVisible();
+  const isVisible = await page.locator('a:has-text("The Kids Table - where a kid can be a kid")').isVisible();
   expect(isVisible).toBeTruthy();
 });
 

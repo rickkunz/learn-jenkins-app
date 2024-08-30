@@ -1,18 +1,18 @@
-import logo from './logo.svg';
+import kidstablelogo from './kidstablelogo.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={kidstablelogo} className="App-logo" alt="logo" />
         <a
           className="App-link"
-          href="https://example.com"
+          href="https://www.youtube.com/channel/UCv-i7fLnvX2iJjmoukFbMsQ"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Jenkins on Udemy
+          The Kids Table - where a kid can be a kid
         </a>
       </header>
       <p>
